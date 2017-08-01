@@ -3,8 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <title>电影详情页面</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/movie_detail_style.css">
 </head>
 <body>
 
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">重案六组</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="搜索电影名">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <article>
+        <section id="header">
+            <h2>电影名(这是个占位符)</h2>
+            <div id="cover">
+                <img src="../img/LaLaLand.webp">
+            </div>
+            <div id="detail">
+                <h4><span>导演: </span>达米恩·查泽雷</h4>
+                <h4><span>编剧: </span>达米恩·查泽雷</h4>
+                <h4><span>主演: </span>瑞恩·高斯林 / 艾玛·斯通 / 约翰·传奇 / 罗丝玛丽·德薇特 / 芬·维特洛克 </h4>
+                <h4><span>类型: </span>剧情 / 爱情 / 歌舞</h4>
+                <h4><span>制片国家/地区: </span>美国</h4>
+                <h4><span>语言: </span>英语</h4>
+                <h4><span>上映日期: </span>2017-02-14(中国大陆)/ 2016-08-31(威尼斯电影节) / 2016-12-25(美国)</h4>
+            </div>
+            <div id="score">
+                <h4>豆瓣评分:</h4>
+                <div>8.3</div>
+
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star-empty"></span>
+            </div>
+        </section>
+        <hr>
+        <section id="introduction">
+            <h4 id="introduction-name" class="title">[电影名]的剧情简介: </h4>
+            <div id="introduction-words" class="words">
+                    米娅（艾玛·斯通 Emma Stone 饰）渴望成为一名演员，但至今她仍旧只是片场咖啡厅里的一名平凡的咖啡师，
+                尽管不停的参加着大大小小的试镜，但米娅收获的只有失败。
+                某日，在一场派对之中，米娅邂逅了名为塞巴斯汀（瑞恩·高斯林 Ryan Gosling 饰）的男子，起初两人之间产生了小小的矛盾，
+                但很快，米娅便被塞巴斯汀身上闪耀的才华以及他对爵士乐的纯粹追求所吸引，最终两人走到了一起。
+                <br>
+                　　在塞巴斯汀的鼓励下，米娅辞掉了咖啡厅的工作，专心为自己写起了剧本，
+                与此同时，塞巴斯汀为了获得一份稳定的收入，加入了一支流行爵士乐队，开始演奏自己并不喜欢的现代爵士乐，没想到一炮而红。
+                随着时间的推移，努力追求梦想的两人，彼此之间的距离却越来越远，在理想和感情之间，他们必须做出选择。
+            </div>
+        </section>
+        <hr>
+        <section id="comments">
+            <h4 id="comments-name" class="title">[电影名]的短评:</h4>
+            <div id="comments-words">
+                <p>[用户名]</p>
+                <div class="words">传统音乐片用陈词滥调为疯狂而有想象力音乐和舞蹈提供叙事载体，
+                    本片正相反，用笨拙舞蹈和跑调歌声来装点乏味到姥姥家的美国梦情结。
+                    一场美国人直白低幼无聊无趣头脑简单和思想贫乏对全世界银幕的入侵，
+                    高司令贡献了此生最像活动木桩的表演。
+                    忍不住怀念起花园叔在艺术家中的演出。
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="like">
+            <h4 id="like-name" class="title">喜欢[电影名]的人还喜欢:</h4>
+            <div>
+                <table id="similar-movies">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <img src="../img/1.webp">
+                            <p class="similar-movies-name">卡罗尔</p>
+                        </td>
+                        <td>
+                            <img src="../img/2.webp">
+                            <p class="similar-movies-name">爱在黎明破晓前</p>
+                        </td>
+                        <td>
+                            <img src="../img/3.webp">
+                            <p class="similar-movies-name">重庆森林</p>
+                        </td>
+                        <td>
+                            <img src="../img/4.webp">
+                            <p class="similar-movies-name">和傻逼的500天</p>
+                        </td>
+                        <td>
+                            <img src="../img/5.webp">
+                            <p class="similar-movies-name">再次出发之纽约遇见你</p>
+                        </td>
+                        <td>
+                        <img src="../img/6.webp">
+                        <p class="similar-movies-name">花样年华</p>
+                    </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </article>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
