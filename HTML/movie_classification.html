@@ -25,6 +25,54 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                 </a>
             </li>
+            <li>
+                 <a href="#xiju" data-toggle="tab">
+                     喜剧片
+                     <span class="glyphicon glyphicon-chevron-right"></span>
+                 </a>
+            </li>
+             <li>
+                 <a href="#kehuan" data-toggle="tab">
+                     科幻片
+                     <span class="glyphicon glyphicon-chevron-right"></span>
+                 </a>
+             </li>
+             <li>
+                 <a href="#dongzuo" data-toggle="tab">
+                     动作片
+                     <span class="glyphicon glyphicon-chevron-right"></span>
+                 </a>
+             </li>
+             <li>
+                 <a href="#xuanyi" data-toggle="tab">
+                     悬疑片
+                     <span class="glyphicon glyphicon-chevron-right"></span>
+                 </a>
+             </li>
+             <li>
+                 <a href="#kongbu" data-toggle="tab">
+                     恐怖片
+                     <span class="glyphicon glyphicon-chevron-right"></span>
+                 </a>
+             </li>
+             <li>
+                 <a href="#qingchun" data-toggle="tab">
+                     青春片
+                     <span class="glyphicon glyphicon-chevron-right"></span>
+                 </a>
+             </li>
+             <li>
+                 <a href="#lizhi" data-toggle="tab">
+                     励志片
+                     <span class="glyphicon glyphicon-chevron-right"></span>
+                 </a>
+             </li>
+             <li>
+                 <a href="#zhanzheng" data-toggle="tab">
+                     战争片
+                     <span class="glyphicon glyphicon-chevron-right"></span>
+                 </a>
+             </li>
          </ul>
      </div>
      <div class="col-lg-8">
@@ -75,34 +123,186 @@
                      </div><!-- /.row -->
                  </div>
              </div>
-         </div>
-
-
-         <!--<div class="container marketing" id="xiju">
+         <div class = "tab-pane fade" id="xiju">
+         <div class="container marketing" >
              <div class="row">
                  <div class="col-xs-4">
-                     <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAGaElEQVR4Xu2Y+0tVURBGx95mKFJUVBihiWaIGT0t7D8vqERNrYgUM3tYqb2EIqOHZXwbjty8IM5Pc0fWBUnvnXNmWt9y731sWllZWTdeENgmgSaE2SYpygoBhEEEFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBNIL8+XLF3v69Kl9//7dLl++bK2trf8BWFxctOnpaWtra7NLly6Vzz5+/GjPnz+3nz9/lvfPnTtn+/fv3xLc379/yzULCwt25MgRGxgYqKvXHEtLS3bmzBnr7Owsn798+dLevn1ruv7o0aPW09NjTU1NrpAaqTi1MJ8/f7bHjx9bc3Ozra6u1gnz+/dvGx0dtV+/fhWRJIzeu3//frlGASpQCdDf379lLg8ePCj3+fHjhx0+fLhOGIk7MTFh6+vrG8JovocPH5Y++/btK+JImFOnTjWSA65ZUgujlWLPnj329etXm5ubqxPm2bNnptD0G7179+4izPv37+3JkyclcImi1Wd5edlu3bpljx49Kve6fv16ua9k07VXrlwpYp0+fdru3r1r7e3tdcKMj4/bwYMHy72qFWZmZsbevXtX7q373bt3r9QMDg66Qmqk4tTCVCBfv35dJ4xWHAV+4cIFkziVMAp+fn7erl27Zi0tLfbixYvyNTQ0VG6na44dO1Y+k4SSTNtW9bp9+3adMJJC25VqR0ZGNoSZmpoqK9/NmzfL5ZOTk2XrrH5uJBG2O8uOFUZbwd69e+38+fNFgkoYBfvq1asiiLYlfa/3rl69aocOHbI3b97Y7OxsqT958qR1d3f/x3KzMGtra0USnVkk2p07dzaE0Tamc9KNGzfKPTSTVrDh4eHt5tNwdTtSmA8fPpSDsH7jDxw4YApOAmgrkBC1K4y+16pTCSQBtO38+fNnQ6La1DYLo9VrZWXFLl68WK7RttPR0VEE0vmqdoXRGUdnoEqghrNhGwPtSGEUop5mNr+0onR1df13htF55tOnT+WcofOKrtWTlc4c2pa0pW0ljFavb9++1fU6ceKE7dq1qxx0qzOMRNQqtvme28ipYUpSC6Og9BuswPU4e/bs2bKiKGg9DVUvHWwVnh6f9ZlWgdqnJG0lfX19picdrUaSSp9LJl2j8HVY1ksrl0LXAVgHWD0VaWXRS//q4Hz8+PGyLempSucWPSVpe9RZp7pfwxjgHCS1MNWBdfP/WYfK2r+r1J5hVKsnJ60k1d9hdM7RljU2NlYE0HlGgilsSamftTpsfumM09vbu/G2trPaM4w+0BlJ26DuK5EkNX+HcVpKeV4CqVeYvNjzTo4webMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbfoP2971pkD2sZ4AAAAASUVORK5CYII=">
+                     <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
                      <h2 class="text-center">三傻大闹宝莱坞</h2>
                      <h4 class="text-center">评分：9.5</h4>
-                     <p class="text-center">导演：拉吉库马尔·希拉尼</p>
-                     <p class="text-center">主演：阿米尔·汗/卡琳娜·卡普尔/马达范/沙尔曼·乔希/奥米·瓦依达/更多...</p>
+                     <!--<p class="text-center">导演：拉吉库马尔·希拉尼</p>
+                     <p class="text-center">主演：阿米尔·汗/卡琳娜·卡普尔/马达范/沙尔曼·乔希/奥米·瓦依达/更多...</p>-->
                      <p><a class="btn center-block " href="#">View details »</a></p>
-                 </div>&lt;!&ndash; /.span4 &ndash;&gt;
+                 </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
                  <div class="col-xs-4">
-                     <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAGaElEQVR4Xu2Y+0tVURBGx95mKFJUVBihiWaIGT0t7D8vqERNrYgUM3tYqb2EIqOHZXwbjty8IM5Pc0fWBUnvnXNmWt9y731sWllZWTdeENgmgSaE2SYpygoBhEEEFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBNIL8+XLF3v69Kl9//7dLl++bK2trf8BWFxctOnpaWtra7NLly6Vzz5+/GjPnz+3nz9/lvfPnTtn+/fv3xLc379/yzULCwt25MgRGxgYqKvXHEtLS3bmzBnr7Owsn798+dLevn1ruv7o0aPW09NjTU1NrpAaqTi1MJ8/f7bHjx9bc3Ozra6u1gnz+/dvGx0dtV+/fhWRJIzeu3//frlGASpQCdDf379lLg8ePCj3+fHjhx0+fLhOGIk7MTFh6+vrG8JovocPH5Y++/btK+JImFOnTjWSA65ZUgujlWLPnj329etXm5ubqxPm2bNnptD0G7179+4izPv37+3JkyclcImi1Wd5edlu3bpljx49Kve6fv16ua9k07VXrlwpYp0+fdru3r1r7e3tdcKMj4/bwYMHy72qFWZmZsbevXtX7q373bt3r9QMDg66Qmqk4tTCVCBfv35dJ4xWHAV+4cIFkziVMAp+fn7erl27Zi0tLfbixYvyNTQ0VG6na44dO1Y+k4SSTNtW9bp9+3adMJJC25VqR0ZGNoSZmpoqK9/NmzfL5ZOTk2XrrH5uJBG2O8uOFUZbwd69e+38+fNFgkoYBfvq1asiiLYlfa/3rl69aocOHbI3b97Y7OxsqT958qR1d3f/x3KzMGtra0USnVkk2p07dzaE0Tamc9KNGzfKPTSTVrDh4eHt5tNwdTtSmA8fPpSDsH7jDxw4YApOAmgrkBC1K4y+16pTCSQBtO38+fNnQ6La1DYLo9VrZWXFLl68WK7RttPR0VEE0vmqdoXRGUdnoEqghrNhGwPtSGEUop5mNr+0onR1df13htF55tOnT+WcofOKrtWTlc4c2pa0pW0ljFavb9++1fU6ceKE7dq1qxx0qzOMRNQqtvme28ipYUpSC6Og9BuswPU4e/bs2bKiKGg9DVUvHWwVnh6f9ZlWgdqnJG0lfX19picdrUaSSp9LJl2j8HVY1ksrl0LXAVgHWD0VaWXRS//q4Hz8+PGyLempSucWPSVpe9RZp7pfwxjgHCS1MNWBdfP/WYfK2r+r1J5hVKsnJ60k1d9hdM7RljU2NlYE0HlGgilsSamftTpsfumM09vbu/G2trPaM4w+0BlJ26DuK5EkNX+HcVpKeV4CqVeYvNjzTo4webMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbfoP2971pkD2sZ4AAAAASUVORK5CYII=" style="width: 140px; height: 140px;">
+                     <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" src=" " style="width: 140px; height: 140px;">
                      <h2  class="text-center">Heading</h2>
-                     <p class="text-center">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                      <p><a class="btn center-block" href="#">View details »</a></p>
-                 </div>&lt;!&ndash; /.span4 &ndash;&gt;
-                 <div class="col-xs-4">
-                     <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAGaElEQVR4Xu2Y+0tVURBGx95mKFJUVBihiWaIGT0t7D8vqERNrYgUM3tYqb2EIqOHZXwbjty8IM5Pc0fWBUnvnXNmWt9y731sWllZWTdeENgmgSaE2SYpygoBhEEEFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBNIL8+XLF3v69Kl9//7dLl++bK2trf8BWFxctOnpaWtra7NLly6Vzz5+/GjPnz+3nz9/lvfPnTtn+/fv3xLc379/yzULCwt25MgRGxgYqKvXHEtLS3bmzBnr7Owsn798+dLevn1ruv7o0aPW09NjTU1NrpAaqTi1MJ8/f7bHjx9bc3Ozra6u1gnz+/dvGx0dtV+/fhWRJIzeu3//frlGASpQCdDf379lLg8ePCj3+fHjhx0+fLhOGIk7MTFh6+vrG8JovocPH5Y++/btK+JImFOnTjWSA65ZUgujlWLPnj329etXm5ubqxPm2bNnptD0G7179+4izPv37+3JkyclcImi1Wd5edlu3bpljx49Kve6fv16ua9k07VXrlwpYp0+fdru3r1r7e3tdcKMj4/bwYMHy72qFWZmZsbevXtX7q373bt3r9QMDg66Qmqk4tTCVCBfv35dJ4xWHAV+4cIFkziVMAp+fn7erl27Zi0tLfbixYvyNTQ0VG6na44dO1Y+k4SSTNtW9bp9+3adMJJC25VqR0ZGNoSZmpoqK9/NmzfL5ZOTk2XrrH5uJBG2O8uOFUZbwd69e+38+fNFgkoYBfvq1asiiLYlfa/3rl69aocOHbI3b97Y7OxsqT958qR1d3f/x3KzMGtra0USnVkk2p07dzaE0Tamc9KNGzfKPTSTVrDh4eHt5tNwdTtSmA8fPpSDsH7jDxw4YApOAmgrkBC1K4y+16pTCSQBtO38+fNnQ6La1DYLo9VrZWXFLl68WK7RttPR0VEE0vmqdoXRGUdnoEqghrNhGwPtSGEUop5mNr+0onR1df13htF55tOnT+WcofOKrtWTlc4c2pa0pW0ljFavb9++1fU6ceKE7dq1qxx0qzOMRNQqtvme28ipYUpSC6Og9BuswPU4e/bs2bKiKGg9DVUvHWwVnh6f9ZlWgdqnJG0lfX19picdrUaSSp9LJl2j8HVY1ksrl0LXAVgHWD0VaWXRS//q4Hz8+PGyLempSucWPSVpe9RZp7pfwxjgHCS1MNWBdfP/WYfK2r+r1J5hVKsnJ60k1d9hdM7RljU2NlYE0HlGgilsSamftTpsfumM09vbu/G2trPaM4w+0BlJ26DuK5EkNX+HcVpKeV4CqVeYvNjzTo4webMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbfoP2971pkD2sZ4AAAAASUVORK5CYII=" style="width: 140px; height: 140px;">
+                 </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                 <div class="col-lg-4">
+                     <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
                      <h2  class="text-center">Heading</h2>
-                     <p  class="text-center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                      <p><a class="btn center-block" href="#">View details »</a></p>
-                 </div>&lt;!&ndash; /.span4 &ndash;&gt;
-             </div>&lt;!&ndash; /.row &ndash;&gt;
+                 </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+             </div><!--&lt;!&ndash; /.row &ndash;&gt;-->
          </div>
-         <div class="container marketing" id="kehuan">
+         </div>
+             <div class = "tab-pane fade" id="kehuan">
+                 <div class="container marketing" >
+                     <div class="row">
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2 class="text-center">变形金刚5-最后的骑士</h2>
+                             <h4 class="text-center">评分：7.5</h4>
+                             <p><a class="btn center-block " href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" src=" " style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-lg-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                     </div><!--&lt;!&ndash; /.row &ndash;&gt;-->
+                 </div>
+             </div>
+             <div class = "tab-pane fade" id="dongzuo">
+                 <div class="container marketing" >
+                     <div class="row">
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2 class="text-center">叶问</h2>
+                             <h4 class="text-center">评分：7.5</h4>
+                             <p><a class="btn center-block " href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" src=" " style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-lg-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                     </div><!--&lt;!&ndash; /.row &ndash;&gt;-->
+                 </div>
+             </div>
+             <div class = "tab-pane fade" id="xuanyi">
+                 <div class="container marketing" >
+                     <div class="row">
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2 class="text-center">看不见的客人</h2>
+                             <h4 class="text-center">评分：9.0</h4>
+                             <p><a class="btn center-block " href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" src=" " style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-lg-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                     </div><!--&lt;!&ndash; /.row &ndash;&gt;-->
+                 </div>
+             </div>
+             <div class = "tab-pane fade" id="kongbu">
+                 <div class="container marketing" >
+                     <div class="row">
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2 class="text-center">釜山行</h2>
+                             <h4 class="text-center">评分：9.3</h4>
+                             <p><a class="btn center-block " href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" src=" " style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-lg-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                     </div><!--&lt;!&ndash; /.row &ndash;&gt;-->
+                 </div>
+             </div>
+             <div class = "tab-pane fade" id="青春">
+                 <div class="container marketing" >
+                     <div class="row">
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2 class="text-center">夏洛特烦恼</h2>
+                             <h4 class="text-center">评分：7.4</h4>
+                             <p><a class="btn center-block " href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" src=" " style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-lg-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                     </div><!--&lt;!&ndash; /.row &ndash;&gt;-->
+                 </div>
+             </div>
+             <div class = "tab-pane fade" id="lizhi">
+                 <div class="container marketing" >
+                     <div class="row">
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2 class="text-center">摔跤吧！爸爸</h2>
+                             <h4 class="text-center">评分：9.6</h4>
+                             <p><a class="btn center-block " href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" src=" " style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-lg-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                     </div><!--&lt;!&ndash; /.row &ndash;&gt;-->
+                 </div>
+             </div>
+             <div class = "tab-pane fade" id="zhanzheng">
+                 <div class="container marketing" >
+                     <div class="row">
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2 class="text-center">血战钢锯岭</h2>
+                             <h4 class="text-center">评分：9.1</h4>
+                             <p><a class="btn center-block " href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-xs-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" src=" " style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                         <div class="col-lg-4">
+                             <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;">
+                             <h2  class="text-center">Heading</h2>
+                             <p><a class="btn center-block" href="#">View details »</a></p>
+                         </div><!--&lt;!&ndash; /.span4 &ndash;&gt;-->
+                     </div><!--&lt;!&ndash; /.row &ndash;&gt;-->
+                 </div>
+             </div>
+         </div>
+     <!--    <div class="container marketing" id="kehuan">
              <div class="row">
                  <div class="col-xs-4">
                      <img class="img-circle center-block" data-src="holder.js/140x140" alt="140x140" style="width: 140px; height: 140px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAACMCAYAAACuwEE+AAAGaElEQVR4Xu2Y+0tVURBGx95mKFJUVBihiWaIGT0t7D8vqERNrYgUM3tYqb2EIqOHZXwbjty8IM5Pc0fWBUnvnXNmWt9y731sWllZWTdeENgmgSaE2SYpygoBhEEEFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBBDGhYtihMEBFwGEceGiGGFwwEUAYVy4KEYYHHARQBgXLooRBgdcBNIL8+XLF3v69Kl9//7dLl++bK2trf8BWFxctOnpaWtra7NLly6Vzz5+/GjPnz+3nz9/lvfPnTtn+/fv3xLc379/yzULCwt25MgRGxgYqKvXHEtLS3bmzBnr7Owsn798+dLevn1ruv7o0aPW09NjTU1NrpAaqTi1MJ8/f7bHjx9bc3Ozra6u1gnz+/dvGx0dtV+/fhWRJIzeu3//frlGASpQCdDf379lLg8ePCj3+fHjhx0+fLhOGIk7MTFh6+vrG8JovocPH5Y++/btK+JImFOnTjWSA65ZUgujlWLPnj329etXm5ubqxPm2bNnptD0G7179+4izPv37+3JkyclcImi1Wd5edlu3bpljx49Kve6fv16ua9k07VXrlwpYp0+fdru3r1r7e3tdcKMj4/bwYMHy72qFWZmZsbevXtX7q373bt3r9QMDg66Qmqk4tTCVCBfv35dJ4xWHAV+4cIFkziVMAp+fn7erl27Zi0tLfbixYvyNTQ0VG6na44dO1Y+k4SSTNtW9bp9+3adMJJC25VqR0ZGNoSZmpoqK9/NmzfL5ZOTk2XrrH5uJBG2O8uOFUZbwd69e+38+fNFgkoYBfvq1asiiLYlfa/3rl69aocOHbI3b97Y7OxsqT958qR1d3f/x3KzMGtra0USnVkk2p07dzaE0Tamc9KNGzfKPTSTVrDh4eHt5tNwdTtSmA8fPpSDsH7jDxw4YApOAmgrkBC1K4y+16pTCSQBtO38+fNnQ6La1DYLo9VrZWXFLl68WK7RttPR0VEE0vmqdoXRGUdnoEqghrNhGwPtSGEUop5mNr+0onR1df13htF55tOnT+WcofOKrtWTlc4c2pa0pW0ljFavb9++1fU6ceKE7dq1qxx0qzOMRNQqtvme28ipYUpSC6Og9BuswPU4e/bs2bKiKGg9DVUvHWwVnh6f9ZlWgdqnJG0lfX19picdrUaSSp9LJl2j8HVY1ksrl0LXAVgHWD0VaWXRS//q4Hz8+PGyLempSucWPSVpe9RZp7pfwxjgHCS1MNWBdfP/WYfK2r+r1J5hVKsnJ60k1d9hdM7RljU2NlYE0HlGgilsSamftTpsfumM09vbu/G2trPaM4w+0BlJ26DuK5EkNX+HcVpKeV4CqVeYvNjzTo4webMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbYowebMLmRxhQrDnbfoP2971pkD2sZ4AAAAASUVORK5CYII=">
@@ -269,7 +469,7 @@
                      <p><a class="btn center-block" href="#">View details »</a></p>
                  </div>&lt;!&ndash; /.span4 &ndash;&gt;
              </div>&lt;!&ndash; /.row &ndash;&gt;
-         </div>-->
+         </div>&ndash;&gt;-->
      </div>
  </div>
 </body>
