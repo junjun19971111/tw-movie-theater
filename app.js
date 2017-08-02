@@ -2,7 +2,7 @@ const sqlite3 = require('sqlite3');
 const express = require('express');
 const bodyparser = require('body-parser');
 const app=express();
-const db = new sqlite3.Database('../database/movieonline.db');
+const db = new sqlite3.Database(__dirname + '/database/movieonline.db');
 
 
 app.use(bodyparser.urlencoded({ extended: true }));
@@ -24,21 +24,21 @@ app.get('/search_movie',function (req,res) {
     });
 });
 
-db.all("select * from MovieComment", function (err, result) {
-    if (!err) {
-        console.log(result);
-    }
-    else
-        console.log(err);
-});
-
-db.all("select * from MovieDetails", function (err, result) {
-    if (!err) {
-        console.log(result);
-    }
-    else
-        console.log(err);
-});
+// db.all("select * from MovieComment", function (err, result) {
+//     if (!err) {
+//         console.log(result);
+//     }
+//     else
+//         console.log(err);
+// });
+//
+// db.all("select * from MovieDetails", function (err, result) {
+//     if (!err) {
+//         console.log(result);
+//     }
+//     else
+//         console.log(err);
+// });
 
 let server=app.listen(8080,function () {
     let host = server.address().address;
