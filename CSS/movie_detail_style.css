@@ -53,7 +53,7 @@ section{
     height: 100%;
 }
 #detail{
-    margin-top: 10px;
+    margin-top: 8px;
     margin-right: 10%;
     width: 40%;
     float: left;
@@ -63,13 +63,13 @@ section{
     margin: 10px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 22px;
 }
-#detail h4 span{
+#detail h4 .name{
     color: #3c3c3c;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 22px;
 
 }
 #score{
