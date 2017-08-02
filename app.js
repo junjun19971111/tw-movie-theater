@@ -8,12 +8,12 @@ const db = new sqlite3.Database('../database/movieonline.db');
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/'));
 
-app.get('/movie_detail.html',function (req ,res ) {
+app.get('/movie_detail.html',function (req ,res) {
     res.sendFile(__dirname + '/HTML/'+'movie_detail.html');
 });
 
-app.post ('/search_movie',function (req,res) {
-    let movie_name =  req.body.search_keywords;
+app.get('/search_movie',function (req,res) {
+    let movie_name =  req.query.search_keywords;
     db.all("select * from Movies WHERE MovieName='"+movie_name+"'", function (err, result) {
         if (!err) {
             console.log(result);
