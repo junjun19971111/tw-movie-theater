@@ -2,7 +2,7 @@ const sqlite3 = require('sqlite3');
 const express = require('express');
 const bodyparser = require('body-parser');
 const app=express();
-const db = new sqlite3.Database('./database/movieonline.db');
+const db = new sqlite3.Database('../database/movieonline.db');
 
 
 app.use(bodyparser.urlencoded({ extended: true }));
