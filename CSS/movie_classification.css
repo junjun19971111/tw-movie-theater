@@ -1,9 +1,16 @@
-.left{
-    background-color: #343f51;
+*{
+    margin: 0;
+    padding: 0;
 }
 body{
     width: 1200px;               /*页面宽度*/
     margin: 0 auto;
+}
+/*article{*/
+    /*background-color: #5bc0de;*/
+/*}*/
+.left{
+    background-color: #343f51;
 }
 .left .operate{
     width: 100%;
