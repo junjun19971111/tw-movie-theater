@@ -14,12 +14,12 @@ function printSearchResult(){
         let director=document.getElementById("director");
         director.innerHTML=movieInfo[0].Direcrtor;
         let writers=document.getElementById("writers");
-        writers.innerHTML=movieInfo[0].writers;
+        writers.innerHTML=movieInfo[0].Writers;
         let stars=document.getElementById("stars");
-        stars.innerHTML=movieInfo[0].stars;
+        stars.innerHTML=movieInfo[0].Starring;
         let type=document.getElementById("type");
-        type.innerHTML=movieInfo[0].type;
+        type.innerHTML=movieInfo[0].Type;
         let areas=document.getElementById("areas");
-        areas.innerHTML=movieInfo[0].areas;
+        areas.innerHTML=movieInfo[0].Area;
     });
 }
