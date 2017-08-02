@@ -1,0 +1,10 @@
+.left{
+    background-color: #343f51;
+}
+body{
+    width: 1200px;               /*页面宽度*/
+    margin: 0 auto;
+}
+.left .operate{
+    width: 100%;
+}
